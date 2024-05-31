@@ -1,0 +1,22 @@
+.footer-container {
+  background-color: var(--primary-color);
+  color: #fff;
+  height: 280px;
+}
+.footer {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  gap: 320px;
+  align-items: center;
+}
+.contact-footer {
+  display: flex;
+  flex-direction: column;
+  gap: 35px;
+}
+.horaires-footer {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}

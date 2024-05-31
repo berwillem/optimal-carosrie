@@ -1,0 +1,25 @@
+.nav-bar-container {
+  background-color: var(--primary-color);
+  position: sticky;
+  top: 0;
+  height: 100px;
+}
+.nav-bar-container ul {
+  display: flex;
+  height: 100%;
+  align-items: center;
+  justify-content: space-between;
+}
+.nav-bar-container ul a {
+  color: white;
+  text-decoration: none;
+}
+.nav-bar-container ul li:hover {
+  scale: 1.1;
+  transition: 0.7s;
+}
+.center-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
