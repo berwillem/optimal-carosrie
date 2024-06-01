@@ -10,7 +10,9 @@ const Contact = () => {
             <h1>contact</h1>
             <div className="contact-info">
               <Home />
-              <p>26 rue Francois Mauriac 13010 Marseille</p>
+              <p>
+                26 rue Francois Mauriac <br /> 13010 Marseille
+              </p>
             </div>
             <div className="contact-info">
               <Smartphone />
@@ -27,12 +29,19 @@ const Contact = () => {
           </div>
           <div className="contact-localisation">
             <iframe
-              width="600"
-              height="450"
+              width="550"
+              height="350"
               allowfullscreen
+              border="none"
               src="https://www.google.com/maps/embed/v1/view?zoom=17&center=43.2773%2C5.4165&key=AIzaSyD3GOujWaSttqYJ6Iiw6L-ZFQfO7YzNpeM"
             ></iframe>
           </div>
+        </div>
+        <div className="contact-form">
+          <input type="email" placeholder="Votre adresse mail *"/>
+          <input type="text" placeholder="Objet :"/>
+          <textarea placeholder="Texte :"></textarea>
+          <button>Envoyer</button>
         </div>
       </div>
     </>

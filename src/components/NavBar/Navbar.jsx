@@ -8,7 +8,7 @@ const Navbar = () => {
           <Link to="/">
             <li>LOGO</li>
           </Link>
-          <Link to="/">
+          <Link to="/apointment">
             <li className="center-text">
               MON VÉHICULE EST <span>ENDOMMAGÉE</span>
             </li>

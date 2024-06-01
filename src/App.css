@@ -1,6 +1,6 @@
 .main-image {
   width: 100%;
-  height: 800px;
+  height: 590px;
 }
 .about {
   margin-top: 70px;
@@ -23,4 +23,61 @@
   font-weight: 800;
   font-size: 35px;
   font-style: italic;
+}
+.road-image {
+  height: 300px;
+  width: 500px;
+  border-radius: 10px;
+}
+.values-content {
+  display: flex;
+  gap: 100px;
+  align-items: center;
+}
+.values-text {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 100px;
+}
+.value {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.value p {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  font-weight: 500;
+}
+.value img {
+  height: 100px;
+  width: 100px;
+}
+.news-letter {
+  margin-top: 70px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 35px;
+  margin-bottom: 40px;
+}
+.news-letter .newletter {
+  width: 450px;
+}
+.news-letter input {
+  padding: 10px 20px;
+  border-radius: 10px;
+  border: 2px solid var(--primary-color);
+  font-size: 18px;
+}
+.news-letter button {
+  padding: 10px 20px;
+  border-radius: 10px;
+  border: 2px solid var(--primary-color);
+  font-size: 18px;
+  background-color: var(--primary-color);
+  color: #fff;
+  cursor: pointer;
 }
