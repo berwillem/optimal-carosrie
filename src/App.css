@@ -1,7 +1,9 @@
-.main-image {
+.main-video {
   width: 100%;
-  height: 590px;
+  height: 65vh;
+  object-fit: cover;
 }
+
 .about {
   margin-top: 70px;
 }
@@ -16,6 +18,7 @@
 }
 .values {
   margin-top: 70px;
+  margin-bottom: 100px;
 }
 .container .titles {
   color: var(--primary-color);
@@ -25,14 +28,12 @@
   font-style: italic;
 }
 .road-image {
-  height: 300px;
+  height: 370px;
   width: 500px;
-  border-radius: 10px;
 }
 .values-content {
   display: flex;
-  gap: 100px;
-  align-items: center;
+  gap: 120px;
 }
 .values-text {
   display: flex;
@@ -43,41 +44,17 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  gap: 30px;
 }
+
 .value p {
   display: flex;
   justify-content: center;
   flex-direction: column;
   align-items: center;
-  font-weight: 500;
+  font-weight: 600;
 }
 .value img {
-  height: 100px;
-  width: 100px;
-}
-.news-letter {
-  margin-top: 70px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 35px;
-  margin-bottom: 40px;
-}
-.news-letter .newletter {
-  width: 450px;
-}
-.news-letter input {
-  padding: 10px 20px;
-  border-radius: 10px;
-  border: 2px solid var(--primary-color);
-  font-size: 18px;
-}
-.news-letter button {
-  padding: 10px 20px;
-  border-radius: 10px;
-  border: 2px solid var(--primary-color);
-  font-size: 18px;
-  background-color: var(--primary-color);
-  color: #fff;
-  cursor: pointer;
+  height: 80px;
+  width: 80px;
 }

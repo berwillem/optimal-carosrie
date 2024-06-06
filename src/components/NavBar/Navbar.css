@@ -3,12 +3,13 @@
   position: sticky;
   top: 0;
   height: 100px;
+  z-index: 5099;
 }
 .nav-bar-container ul {
   display: flex;
   height: 100%;
   align-items: center;
-  justify-content: space-between;
+  gap:350px
 }
 .nav-bar-container ul a {
   color: white;
@@ -22,4 +23,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+.logo {
+  height: 75px;
 }

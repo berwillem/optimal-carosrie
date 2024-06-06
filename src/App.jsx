@@ -1,16 +1,27 @@
-import mainImage from "./assets/mecanicien-voiture-preparant-aile-voiture-avant-peindre_1.webp";
 import "./App.css";
-import road from "./assets/road.jpg";
-import quality from "./assets/quality.svg";
-import handshake from "./assets/handshake.svg";
-import ecology from "./assets/ecology.svg";
-import money from "./assets/money-transfer.svg";
-import newletter from "./assets/newletter.svg";
+import video from "./assets/video.mp4";
+import previewImage from "./assets/videopreview.webp";
+import road from "./assets/road.webp";
+import money from "./assets/pic1.webp";
+import quality from "./assets/pic2.webp";
+import handshake from "./assets/pic3.webp";
+import ecology from "./assets/pic4.webp";
+
 const App = () => {
   return (
     <>
       <div className="main-container">
-        <img src={mainImage} alt="image carrosrie" className="main-image" />
+        <video
+          className="main-video"
+          poster={previewImage}
+          autoPlay
+          preload="auto"
+          muted
+          loop
+        >
+          <source src={video} type="video/mp4" />
+        </video>
+
         <div className="container">
           <div className="about">
             <h1 className="titles">Qui sommes nous ?</h1>
@@ -66,11 +77,6 @@ const App = () => {
                 </div>
               </div>
             </div>
-          </div>
-          <div className="news-letter">
-            <img src={newletter} alt="newletter" className="newletter" />
-            <input type="text" placeholder="Votre adresse email" />
-            <button> S’abonner</button>
           </div>
         </div>
       </div>

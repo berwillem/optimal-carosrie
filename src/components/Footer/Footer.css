@@ -6,17 +6,26 @@
 .footer {
   height: 100%;
   display: flex;
-  justify-content: center;
-  gap: 320px;
+  gap: 140px;
   align-items: center;
 }
 .contact-footer {
   display: flex;
   flex-direction: column;
-  gap: 35px;
+  gap: 25px;
+}
+.footer-infos{
+  display: flex;
+  gap:200px
 }
 .horaires-footer {
   display: flex;
   flex-direction: column;
-  gap: 40px;
+  gap: 37px;
+}
+.footer h2{
+  font-style: italic;
+}
+.footer-infos p {
+  font-size: 18px;
 }

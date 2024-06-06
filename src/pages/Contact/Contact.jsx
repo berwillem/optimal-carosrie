@@ -31,15 +31,15 @@ const Contact = () => {
             <iframe
               width="550"
               height="350"
-              allowfullscreen
               border="none"
-              src="https://www.google.com/maps/embed/v1/view?zoom=17&center=43.2773%2C5.4165&key=AIzaSyD3GOujWaSttqYJ6Iiw6L-ZFQfO7YzNpeM"
+              allowfullscreen
+              src="https://www.google.com/maps/embed/v1/place?q=https%3A%2F%2Fwww.google.com%2Fmaps%2Fplace%2FOptimale%2BCarrosserie%2F%4043.2772505%2C5.4159027%2C17z%2Fdata%3D!3m1!4b1!4m6!3m5!1s0x12c9b934f1988087%3A0x50df5bc91d3012a7!8m2!3d43.2772505!4d5.4159027!16s%252Fg%252F11p_5t3nkw%3Fentry%3Dttu&key=AIzaSyD3GOujWaSttqYJ6Iiw6L-ZFQfO7YzNpeM"
             ></iframe>
           </div>
         </div>
         <div className="contact-form">
-          <input type="email" placeholder="Votre adresse mail *"/>
-          <input type="text" placeholder="Objet :"/>
+          <input type="email" placeholder="Votre adresse mail *" />
+          <input type="text" placeholder="Objet :" />
           <textarea placeholder="Texte :"></textarea>
           <button>Envoyer</button>
         </div>
