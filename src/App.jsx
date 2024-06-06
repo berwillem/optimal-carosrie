@@ -50,7 +50,7 @@ const App = () => {
           <div className="values">
             <h1 className="titles">Nos Valeurs</h1>
             <div className="values-content">
-              <img src={road} alt="road" className="road-image" />
+              <img  src={road} alt="road" className="road-image" />
               <div className="values-text">
                 <div className="value">
                   <img src={quality} alt="quality" />

@@ -90,3 +90,57 @@
   color: #fff;
   transition: 0.4s;
 }
+@media screen and (max-width: 1215px) {
+  .contact-infos{
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+}
+@media screen and (max-width: 1170px) {
+
+}
+@media screen and (max-width: 1080px) {
+
+}
+@media screen and (max-width: 870px) {
+
+
+}
+@media screen and (max-width: 750px) {
+
+}
+@media screen and (max-width: 660px) {
+  .contact-text,.contact-localisation,.contact-localisation iframe{
+   width: 100%;
+  }
+ 
+}
+@media screen and (max-width: 490px) {
+  .contact-info p {
+   font-size: 15px;
+}
+
+}
+@media screen and (max-width: 414px) {
+  .contact-info p {
+    font-size: 12px;
+ }
+  .contact-info svg {
+    width: 15px;
+ }
+ .contact-header {
+ font-size: 35px;
+}
+}
+@media screen and (max-width: 390px) {
+  .contact-info p {
+    font-size: 11px;
+ }
+ .contact-header {
+  font-size: 30px;
+ }
+}
+@media screen and (max-width: 250px) {
+}
+
