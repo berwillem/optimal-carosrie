@@ -8,23 +8,26 @@ const Navbar = () => {
   const handelToggle=()=>{
     setOpen(!open)
   }
+  const handelClose=()=>{
+    setOpen(false)
+  }
   return (
     <>
       <nav className="nav-bar-container ">
         <ul className="container">
-          <Link to="/">
+          <Link to="/" onClick={handelClose}>
             <li>
               <img src={logo} alt="logo" className="logo" />
             </li>
           </Link>
           <Menu className="menuIcon" onClick={handelToggle}/>
         <div className={open?'menu open':'menu'}>
-        <Link to="/apointment">
+        <Link to="/apointment"  onClick={handelClose}>
             <li className="center-text">
               MON VÉHICULE EST <span>ENDOMMAGÉE</span>
             </li>
           </Link>
-          <Link to="/contact">
+          <Link to="/contact"  onClick={handelClose}> 
             <li className="center-text">
               JE CONTACTE <span> L’ATELIER</span>
             </li>
