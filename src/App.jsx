@@ -20,59 +20,37 @@ const App = () => {
   const myref3 = useRef();
   const myref4 = useRef();
 
-
   useEffect(() => {
-    const observer = new IntersectionObserver(
-      ((enties) => {
-    const entry=enties[0]
+    const observer = new IntersectionObserver((enties) => {
+      const entry = enties[0];
 
-    setIsVisible(entry.isIntersecting)
+      setIsVisible(entry.isIntersecting);
+    });
+    const observer2 = new IntersectionObserver((enties) => {
+      const entry = enties[0];
 
-      }),
-  
-    );
-    const observer2 = new IntersectionObserver(
-      ((enties) => {
-    const entry=enties[0]
+      setIsVisible2(entry.isIntersecting);
+    });
+    const observer3 = new IntersectionObserver((enties) => {
+      const entry = enties[0];
 
-    setIsVisible2(entry.isIntersecting)
+      setIsVisible3(entry.isIntersecting);
+    });
+    const observer4 = new IntersectionObserver((enties) => {
+      const entry = enties[0];
 
-      }),
-  
-    );
-    const observer3 = new IntersectionObserver(
-      ((enties) => {
-    const entry=enties[0]
+      setIsVisible4(entry.isIntersecting);
+    });
+    const observer5 = new IntersectionObserver((enties) => {
+      const entry = enties[0];
 
-    setIsVisible3(entry.isIntersecting)
-
-      }),
-  
-    );
-    const observer4 = new IntersectionObserver(
-      ((enties) => {
-    const entry=enties[0]
-
-    setIsVisible4(entry.isIntersecting)
-
-      }),
-  
-    );
-    const observer5= new IntersectionObserver(
-      ((enties) => {
-    const entry=enties[0]
-
-    setIsVisible5(entry.isIntersecting)
-
-      }),
-  
-    );
-  observer.observe(elementRef.current)
-  observer2.observe(myref.current)
-  observer3.observe(myref2.current)
-  observer4.observe(myref3.current)
-  observer5.observe(myref4.current)
-   
+      setIsVisible5(entry.isIntersecting);
+    });
+    observer.observe(elementRef.current);
+    observer2.observe(myref.current);
+    observer3.observe(myref2.current);
+    observer4.observe(myref3.current);
+    observer5.observe(myref4.current);
   }, []);
   return (
     <>
@@ -90,15 +68,26 @@ const App = () => {
 
         <div className="container">
           <div className="about">
-            <h1  className={`titles ${isVisible ? 'show' : 'hidden'}`} ref={elementRef}>Qui sommes nous ?</h1>
+            <h1
+              className={`titles ${isVisible ? "show" : "hidden"}`}
+              ref={elementRef}
+            >
+              Qui sommes nous ?
+            </h1>
             <p>
-              <span ref={myref} className={` ${isVisible2 ? 'show' : 'hidden'}`}>
+              <span
+                ref={myref}
+                className={` ${isVisible2 ? "show" : "hidden"}`}
+              >
                 {" "}
                 Notre équipe de professionnels compétents, vous propose un
                 accueil personnalisé de qualité, et une totale transparence sur
                 les travaux effectués.{" "}
               </span>
-              <span ref={myref2} className={` ${isVisible3 ? 'show' : 'hidden'}`}>
+              <span
+                ref={myref2}
+                className={` ${isVisible3 ? "show" : "hidden"}`}
+              >
                 La carrosserie se situe dans le 10ème arrondissement de
                 Marseille, nous disposons de 420 m2 d’atelier dans lequel nous
                 sommes prêts à accueillir votre véhicule. Nous savons que la vie
@@ -106,17 +95,25 @@ const App = () => {
                 engageons à vous fournir un véhicule de courtoisie le temps des
                 travaux.
               </span>
-              <span ref={myref3} className={` ${isVisible4 ? 'show' : 'hidden'}`}>
+              <span
+                ref={myref3}
+                className={` ${isVisible4 ? "show" : "hidden"}`}
+              >
                 Nous travaillons avec du matériel de pointe, pour vous offrir la
                 meilleure prestation possible. La franchise vous est offerte !
               </span>
-              <span ref={myref4} className={` ${isVisible5 ? 'show' : 'hidden'}`}>Vous pourrez nous joindre au : 06 20 67 53 36</span>
+              <span
+                ref={myref4}
+                className={` ${isVisible5 ? "show" : "hidden"}`}
+              >
+                Vous pourrez nous joindre au : +33 6 98 43 28 19
+              </span>
             </p>
           </div>
           <div className="values">
             <h1 className="titles">Nos Valeurs</h1>
             <div className="values-content">
-              <img  src={road} alt="road" className="road-image" />
+              <img src={road} alt="road" className="road-image" />
               <div className="values-text">
                 <div className="value">
                   <img src={quality} alt="quality" />

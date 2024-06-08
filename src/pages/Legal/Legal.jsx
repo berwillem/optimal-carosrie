@@ -20,13 +20,13 @@ const Legal = () => {
             Préfixe : SAS <br />
             Nom de la Société : OPTIMALE CARROSSERIE <br /> Adresse : 26 Rue
             FRANCOIS MAURIAC 13010 MARSEILLE 10 <br />
-            Tél : 06 98 43 28 19 <br /> SIREN : 912470440 <br />
+            Tél : +33 6 98 43 28 19 <br /> SIREN : 912470440 <br />
             Adresse de courrier électronique : optimalecarrosserie@gmail.com
           </span>
           <span>
             Le Créateur du site est : Matéo Riallant <br />
             Le Responsable de la publication est : Yannis Frihi <br />
-            Contactez le responsable de la publication : 06 98 43 28 19
+            Contactez le responsable de la publication : +33 6 98 43 28 19
           </span>
           <span>
             L’hebergeur du site est : <br /> OVH 2 <br />

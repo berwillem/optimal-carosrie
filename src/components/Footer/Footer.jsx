@@ -13,7 +13,7 @@ const Footer = () => {
                 26 rue Francois Mauriac <br />
                 13010 Marseille
               </p>
-              <p>06 20 67 53 36</p>
+              <p>+33 6 98 43 28 19</p>
               <p>optimalecarrosserie@gmail.com</p>
             </div>
             <div className="horaires-footer">
