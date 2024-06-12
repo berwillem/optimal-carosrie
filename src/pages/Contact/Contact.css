@@ -41,7 +41,7 @@
 .contact-info p {
   font-weight: 600;
 }
-.contact-form {
+.contact-form form {
   margin-top: 50px;
   display: flex;
   flex-direction: column;
@@ -49,12 +49,12 @@
   position: relative;
   margin-bottom: 130px;
 }
-.contact-form input {
+.contact-form form input {
   padding: 20px;
   border: 2px solid var(--primary-color);
   border-radius: 10px;
 }
-.contact-form input::placeholder {
+.contact-form form input::placeholder {
   color: var(--primary-color);
   font-weight: 550;
   font-size: 15px;
@@ -72,7 +72,7 @@
   font-size: 15px;
   padding: 10px;
 }
-.contact-form button {
+.contact-form form button {
   position: absolute;
   bottom: -80px;
   right: 0px;
